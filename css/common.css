@@ -110,9 +110,9 @@ form ul {
 .section {margin: 17px 0 5px 0; background: url('../img/bg_section.png') 0 28px no-repeat;}
 .section .h {height: 21px; padding-top: 7px; font-weight: bold; text-align: center; color: #5a3937; background: url('../img/bg_section_h.jpg') 0 0 no-repeat;}
 .section .m {padding-top: 13px;}
-.section.search {position: absolute; z-index: 50; top: 0px; left: 62%; width: 267px; padding-bottom: 6px; border: 1px solid #b89b4c; background: url('../img/bg_search.png') 0 0 repeat;}
+.section.search {position: absolute; z-index: 50; top: 0px; left: 57%; width: 267px; padding-bottom: 6px; border: 1px solid #b89b4c; background: url('../img/bg_search.png') 0 0 repeat;}
 .section.search .form li {margin-top: 0;}
-.section.search .form .fdbutton_ {float: right; width: 18px; padding: 9 1px 0 4px;}
+.section.search .form .fdbutton_ {float: right; width: 24px; padding: 9 1px 0 4px;}
 .section.search .form .fdtext_ {padding: 0 23px 0 30px;}
 .section.search .fd.ftext {width: 200px; height: 20px; margin-top: 8px; padding-left: 2px; font-size: 13px; border: 1px solid #4e3424; color: #ffffff; background: url('../img/bg_fd_search.png') 0 0 repeat;}
 .section.search .fd.fbutton {width: auto; height: auto; margin-top: 2px; border: 0; background: none; font-size: 14px; color: #ffffff;}
