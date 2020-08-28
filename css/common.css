@@ -8,7 +8,7 @@ img {border: none;}
 a {text-decoration: underline; color: #990000; cursor: pointer;}
 input {vertical-align: middle;}
 .wrapper {width: 1000px; margin: 0 auto; min-height: 100%; height: auto !important; height: 100%;}
-.header {height: 240px;}
+.header {position: relative; height: 240px;}
 .middle {width: 100%; padding: 0 0 38px; height: 1%; position: relative;}
 .middle:after {content: ''; clear: both; display: table;}
 .container { width: 100%; float: left; padding-bottom: 30px; /*overflow: hidden;*/ }
@@ -833,4 +833,36 @@ hr.note {
     display: none;
 }
 
+.user {
+  position: absolute;
+  top: 17px;
+  right: 0;
+  width: 94px;
+  height: 42px;
+}
 
+.user-list {
+  list-style: none;
+  
+  display: flex;
+  width: 94px;
+  padding: 0;
+}
+
+.user-list li {
+  margin: 0 auto;
+}
+
+.user-list a {
+  display: inline-block;
+  padding: 12px 16px;
+  
+  text-decoration: none;
+  line-height: 18px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 14px;
+  color: #bf953f;
+  
+  box-shadow: inset 0 0 0 1px #bf953f;
+}
