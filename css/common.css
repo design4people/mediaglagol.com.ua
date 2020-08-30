@@ -886,3 +886,13 @@ hr.note {
   padding: 35px;
   padding-left: 225px;
 }
+
+.modal-close {
+  font-size: 0;
+  width: 18px;
+  height: 18px;
+  border: 0;
+  /* background-color: #ffffff; */
+  
+  cursor: pointer;
+}
