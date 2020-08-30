@@ -896,7 +896,7 @@ hr.note {
   width: 18px;
   height: 18px;
   border: 0;
-  background-color: #ffffff;
+  background-color: transparent;
   
   cursor: pointer;
 }
