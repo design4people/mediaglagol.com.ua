@@ -888,6 +888,10 @@ hr.note {
 }
 
 .modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  
   font-size: 0;
   width: 18px;
   height: 18px;
