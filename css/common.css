@@ -1019,3 +1019,12 @@ hr.note {
 .modal-form input:focus {
   border-color: #9f8080;
 }
+
+.user-restore {
+  display: inline-block;
+  margin-left: 25px;
+  
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+}
