@@ -1028,3 +1028,27 @@ hr.note {
   line-height: 18px;
   font-weight: normal;
 }
+
+.login-list {
+  display: flex;
+  margin-top: 16px;
+  width: 100%;
+  justify-content: center;
+}
+
+.login-icon {
+  display: inline-block;
+  padding-left: 24px;
+  margin-left: 20px;
+  
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.login-icon__google {
+  background-image: url(../img/google.png);
+}
+
+.login-icon__facebook {
+  background-image: url(../img/facebook.png);
+}
