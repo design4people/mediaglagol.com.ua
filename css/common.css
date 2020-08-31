@@ -883,7 +883,7 @@ hr.note {
 
 .modal {
   position: fixed;
-  z-index: 1000;  
+  z-index: 1000;
   color: #333333;
   
   background-color: #ffffff;
@@ -934,4 +934,35 @@ hr.note {
 
 .modal-close::after {
   transform: rotate(-45deg);
+}
+
+.modal h2 {
+  margin: 0;
+  margin-bottom: 30px;
+  
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  
+  color: #b79a4e;
+}
+
+.modal p {
+  margin: 0;
+  margin-bottom: 25px;
+  
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  
+  color: #333333;
+}
+
+.modal a {
+  text-decoration: none;
+}
+
+.modal a:hover {
+  text-decoration: underline;
 }
