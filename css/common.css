@@ -966,3 +966,56 @@ hr.note {
 .modal a:hover {
   text-decoration: underline;
 }
+
+.modal-form {
+  margin: 0;
+}
+
+.modal-form p {
+  margin: 0;
+  margin-bottom: 20px;
+  
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: normal;
+  
+  color: #828282;
+}
+
+.modal-form input[type="text"],
+.modal-form input[type="password"],
+.modal-form input[type="submit"] {
+  box-sizing: border-box;
+  width: 220px;
+  
+  margin: 0;
+  padding: 5px 12px;
+  padding-bottom: 3px;
+  
+  font: inherit;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: normal;
+  
+  background-color: #f9efce;
+}
+
+.modal-form input[type="text"],
+.modal-form input[type="password"] {
+  color: #4f4f4f;
+  
+  border: 1px solid #f9efce;
+}
+
+.modal-form input[type="submit"] {
+  margin-top: 16px;
+  
+  color: #4e3424;
+  
+  border: 1px solid #9f8080;
+}
+
+.modal-form input:focus {
+  border-color: #9f8080;
+}
