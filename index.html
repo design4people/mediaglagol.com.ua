@@ -183,22 +183,22 @@
     <section class="modal modal-login">
       <h2>Войти<span class="visually-hidden"> в личный кабинет</span></h2>
       <p class="visually-hidden">Введите свой логин и пароль</p>
-      <form>
+      <form class="modal-form" action="" method="post">
         <p>
           <label for="user-login">E-mail или логин</label><br>
           <input type="text" id="user-login" name="login" placeholder="sample@gmail.com">
         </p>
         <p>
           <label for="user-password">Пароль</label><br>
-          <input type="password" id="user-password" name="password" value="Мой уникальный пароль">
-          <a class="restore" href="#">Напомнить пароль</a>
+          <input type="password" id="user-password" name="password" value="Мой пароль">
+          <a class="user-restore" href="#">Напомнить пароль</a>
         </p>
         <p>
           <label class="visually-hidden" for="submit-data">Отправить введенные данные</label>
           <input type="submit" id="submit-data" value="Продолжить">
         </p>
       </form>
-      <p>Войти как пользователь <a class="modal-icon__google" href="#">Google</a> <a class="modal-icon__facebook" href="#">Facebook</a></p>
+      <p>Войти как пользователь <span class="login-list"><a class="login-icon login-icon__google" href="#">Google</a> <a class="login-icon login-icon__facebook" href="#">Facebook</a></span></p>
       <p>Новый пользователь? <a href="#">Создать учетную запись</a></p>
       <button class="modal-close" type="button">Закрыть</button>
     </section>
