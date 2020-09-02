@@ -903,6 +903,17 @@ hr.note {
   border-radius: 6px 5px 5px 6px;
 }
 
+.login {
+  width: 380px;
+  margin: 0;
+  
+  padding: 35px;
+  padding-left: 0px;
+  color: #333333;
+  
+  background-color: #ffffff;
+}
+
 .modal-login::before {
   position: absolute;
   content: "";
@@ -951,7 +962,8 @@ hr.note {
   transform: rotate(-45deg);
 }
 
-.modal h2 {
+.modal h2,
+.login h1 {
   margin: 0;
   margin-bottom: 30px;
   
@@ -962,7 +974,12 @@ hr.note {
   color: #b79a4e;
 }
 
-.modal p {
+.login h1 {
+  padding: 0;
+}
+
+.modal p,
+.login p {
   margin: 0;
   margin-bottom: 25px;
   
@@ -974,11 +991,13 @@ hr.note {
   color: #333333;
 }
 
-.modal a {
+.modal a,
+.login a {
   text-decoration: none;
 }
 
-.modal a:hover {
+.modal a:hover,
+.login a:hover {
   text-decoration: underline;
 }
 
