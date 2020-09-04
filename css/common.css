@@ -892,6 +892,10 @@ hr.note {
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8);
 }
 
+.modal-show {
+  display: block;
+}
+
 .modal-login {
   top: 210px;
   left: 50%;
