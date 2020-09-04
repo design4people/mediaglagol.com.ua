@@ -936,6 +936,10 @@ hr.note {
   background: rgba(0, 0, 0, 0.5);
 }
 
+.overlay-show {
+  display: block;
+}
+
 .login {
   width: 380px;
   margin: 0;
